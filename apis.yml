@@ -1,8 +1,27 @@
 aid: sole-society
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sole-society.png
 name: Sole Society
-description: Sole Society is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Sole Society is a women's footwear, handbags, jewelry, and accessories
+  e-commerce brand, surfaced as a portfolio company of insight-partners and added to
+  the API Evangelist network as a stub for enrichment. As of this enrichment pass the
+  standalone brand no longer operates its own storefront. The domain solesociety.com
+  resolves to MarkMonitor-managed nameservers, its HTTPS endpoints do not respond, and
+  http://solesociety.com redirects (HTTP 200) to https://www.dsw.com/, so the domain
+  appears to have been folded into DSW / Designer Brands. No public developer portal,
+  API documentation, OpenAPI, MCP server, or other machine-readable API surface was
+  found for this brand. This profile remains a lead-stage company record with no API
+  artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/sole-society/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +29,18 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-redirects-to: https://www.dsw.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Footwear
+- Fashion
+- Ecommerce
+- Retail
+- Accessories
+- Handbags
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sole-society-domain-security.yml
 - type: Website
   url: https://www.solesociety.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
