@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/sole-society/integrations
+- https://n8n.io/integrations/sole-society/
+- https://composio.dev/toolkits/sole-society
+- https://monid.ai/tools/sole-society
+checked:
+- https://composio.dev/toolkits/sole-society
+- https://monid.ai/tools/sole-society
+- https://n8n.io/integrations/sole-society/
+- https://zapier.com/apps/sole-society/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
